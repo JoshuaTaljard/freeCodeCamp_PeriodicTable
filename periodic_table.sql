@@ -77,7 +77,7 @@ ALTER TABLE public.properties OWNER TO freecodecamp;
 
 CREATE TABLE public.types (
     type_id integer NOT NULL,
-    type character varying(30) NOT NULL
+    type character varying(64) NOT NULL
 );
 
 
